@@ -11,27 +11,27 @@
 
 ### Для пользователей
 - **Регистрация и авторизация** с проверкой данных и хешированием паролей:
-- ![in](photo/reg.png)
+  ![in](photo/reg.png)
 - **Просмотр каталога игр** с фильтрацией по категориям:
-- ![main](photo/main.png)
+ ![main](photo/main.png)
 - **Детальная страница игры** с описанием, ценой и кнопками для покупки/аренды:
-- ![main](photo/game.png)
+  ![main](photo/game.png)
 - **Корзина покупок** с возможностью добавления, удаления и изменения количества товаров:
-- ![main](photo/cart.png)
+ ![main](photo/cart.png)
 - **Аренда игр** с выбором даты начала и окончания:
-- ![main](photo/rent.png)
+  ![main](photo/rent.png)
 - **Личный кабинет** с историей активных и завершённых аренд:
-- ![main](photo/rent2.png)
+ ![main](photo/rent2.png)
 - **Отмена аренды** при необходимости:
-- ![main](photo/delete.png)
+ ![main](photo/delete.png)
 
 ### Для администратора
 - **Управление играми (CRUD):** добавление, редактирование, удаление карточек игр с загрузкой изображений:
--  ![main](photo/admin1.png)
-- ![main](photo/admin3.png)
--  ![main](photo/admin4.png)
+  ![main](photo/admin1.png)
+ ![main](photo/admin3.png)
+   ![main](photo/admin4.png)
 - **Управление пользователями:** просмотр всех пользователей и удаление обычных аккаунтов:
--  ![main](photo/admin2.png)
+   ![main](photo/admin2.png)
 
 
 ## Технологический стек
@@ -63,7 +63,7 @@
 - `users` ↔ `rentals` (один-ко-многим)
 - `games` ↔ `rentals` (один-ко-многим)
 
-![er](photo/er.jpg)
+![er](photo/er.png)
 
 
 ## Архитектура приложения
